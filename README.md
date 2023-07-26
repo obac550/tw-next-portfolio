@@ -1,6 +1,9 @@
 # Tailwind CSS and Next.js Portfolio
 
 This is a template for creating a portfolio with Tailwind CSS and Next.js.
+- Added Md blog
+- Added GDRP js
+- Added ArrayGallary
 
 ![Portfolio Demo](demo/demo.gif)
 
