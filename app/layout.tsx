@@ -1,5 +1,5 @@
 "use client"
-import "../styles/globals.css"
+import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import CookieConsent from "react-cookie-consent"
@@ -18,6 +18,7 @@ export default function RootLayout({
       */}
       <head />
       <body className="dark:bg-stone-900">
+      <link rel="icon" href="/icon.ico" sizes="any" />
         <ThemeProvider enableSystem={true} attribute="class">
           <CookieConsent
           enableDeclineButton

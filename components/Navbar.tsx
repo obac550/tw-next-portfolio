@@ -25,6 +25,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+/*   {
+    label: "FAQs",
+    page: "faqs",
+  }, */
 ]
 
 export default function Navbar() {
@@ -45,11 +49,10 @@ export default function Navbar() {
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                onClick={() => setNavbar(!navbar)}
-              >
+                onClick={() => setNavbar(!navbar)}>
                 {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
               </button>
-            </div>
+            </div>  
           </div>
         </div>
 
@@ -93,6 +96,7 @@ export default function Navbar() {
                 >
                   <RiMoonFill size={25} />
                 </button>
+               
               )}
             </div>
           </div>
